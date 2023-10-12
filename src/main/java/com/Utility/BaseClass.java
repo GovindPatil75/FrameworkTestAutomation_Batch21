@@ -24,7 +24,7 @@ public class BaseClass {
 	public void setUp() {
 		WebDriverManager.chromedriver().setup();
 		driver=new ChromeDriver();
-		driver.get("https://www.facebook.com/");
+		driver.get("https://demo.guru99.com/V4/");
 		driver.manage().window().maximize();
 	}
 
