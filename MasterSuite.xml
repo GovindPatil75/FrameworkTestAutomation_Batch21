@@ -4,6 +4,7 @@
   <test thread-count="5" name="MasterTest">
     <classes>
       <class name="com.LoginTest.VerifyLoginTestWithValidCredentials"/>
+      <class name="com.LoginTest.VerifyLogin_Avanti"/>
     </classes>
   </test> <!-- MasterTest -->
 </suite> <!-- MasterSuite -->
