@@ -24,7 +24,7 @@ public class BaseClass {
 	public void setUp() {
 		WebDriverManager.chromedriver().setup();
 		driver=new ChromeDriver();
-		driver.get("https://www.facebook.com/");
+		driver.get("https://practicetestautomation.com/practice-test-login/");
 		driver.manage().window().maximize();
 	}
 
