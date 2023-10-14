@@ -12,7 +12,7 @@ public class ExcelDataProvider {
 
 	public ExcelDataProvider() throws IOException {
 		
-		String path=System.getProperty("user.dir")+"\\TestData\\Data.xlsx";
+		String path=System.getProperty("user.dir")+"\\TestData\\w3loginswati.xlsx";
 		FileInputStream file=new FileInputStream(path);
 		wb=new XSSFWorkbook(file);
 		
