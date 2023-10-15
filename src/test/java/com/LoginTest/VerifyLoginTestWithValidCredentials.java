@@ -16,8 +16,8 @@ public class VerifyLoginTestWithValidCredentials extends BaseClass{
 		
 		LoginPom Login=PageFactory.initElements(driver, LoginPom.class);
 		
-		String EmailTestData=excel.getStringTestData_Excel("LoginTestData", 0, 0);
-		String PasswordTestData=excel.getStringTestData_Excel("LoginTestData", 0, 1);
+		String EmailTestData=excel.getStringTestData_Excel("W3LoginTest", 0, 0);
+		String PasswordTestData=excel.getStringTestData_Excel("W3LoginTest", 0, 1);
 		
 		//String DataExample=excel.getNumericTestData_Excel("LoginTestData", 0, 0);
 		

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="masterw3Suite">
+  <test thread-count="5" name="masterw3Test">
+    <classes>
+      <class name="com.LoginTest.Verifyloginwithvalidcrediencialswati"/>
+    </classes>
+  </test> <!-- masterw3Test -->
+</suite> <!-- masterw3Suite -->

@@ -43,4 +43,29 @@ public class BaseClass {
 	public void tearDown() {
 		driver.quit(); // close All Open Windows 
 	}
+	
+	//w3 site login functionality base class
+	public static class baseclassswati{
+	public static WebDriver driver;
+	public static ExcelDataProvider excel;
+	
+	@BeforeSuite
+	public void ObjectInit() throws IOException {
+		 excel=new ExcelDataProvider();
+	}
+	
+	@BeforeMethod
+	public void setUp() {
+		WebDriverManager.chromedriver().setup();
+		driver=new ChromeDriver();
+		driver.get("https://profile.w3schools.com/");
+		driver.manage().window().maximize();
+	}
+
+	@AfterMethod
+	public void tearDown() {
+		driver.quit(); // close All Open Windows 
+	}
+	}
 }
+
