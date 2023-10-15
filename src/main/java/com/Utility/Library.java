@@ -5,7 +5,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
+import com.aventstack.extentreports.ExtentTest;
+
 public class Library {
+	
+	public static ExtentTest test;
 
 	 //SendKeys
 	public static void custom_Sendkeys(WebElement element,String Value) {

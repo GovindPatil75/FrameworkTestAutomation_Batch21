@@ -1,21 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-11T09:14:54 IST" name="Default suite" finished-at="2023-10-11T09:15:00 IST" duration-ms="6197">
+  <suite started-at="2023-10-15T09:06:54 IST" name="MasterSuite" finished-at="2023-10-15T09:07:04 IST" duration-ms="10493">
     <groups>
     </groups>
-    <test started-at="2023-10-11T09:14:54 IST" name="Default test" finished-at="2023-10-11T09:15:00 IST" duration-ms="6197">
+    <test started-at="2023-10-15T09:06:54 IST" name="MasterTest" finished-at="2023-10-15T09:07:04 IST" duration-ms="10493">
       <class name="com.LoginTest.VerifyLoginTestWithValidCredentials">
-        <test-method is-config="true" signature="ObjectInit()[pri:0, instance:com.LoginTest.VerifyLoginTestWithValidCredentials@7d4f9aae]" started-at="2023-10-11T09:14:53 IST" name="ObjectInit" finished-at="2023-10-11T09:14:54 IST" duration-ms="671" status="PASS">
+        <test-method is-config="true" signature="ObjectInit()[pri:0, instance:com.LoginTest.VerifyLoginTestWithValidCredentials@332796d3]" started-at="2023-10-15T09:06:53 IST" name="ObjectInit" finished-at="2023-10-15T09:06:54 IST" duration-ms="673" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ObjectInit -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.LoginTest.VerifyLoginTestWithValidCredentials@7d4f9aae]" started-at="2023-10-11T09:14:54 IST" name="setUp" finished-at="2023-10-11T09:14:57 IST" duration-ms="3560" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.LoginTest.VerifyLoginTestWithValidCredentials@332796d3]" started-at="2023-10-15T09:06:54 IST" name="setUp" finished-at="2023-10-15T09:06:58 IST" duration-ms="3940" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC_LoginTest_1_VerifyLoginTestWithValidCrdentials()[pri:0, instance:com.LoginTest.VerifyLoginTestWithValidCredentials@7d4f9aae]" started-at="2023-10-11T09:14:57 IST" name="TC_LoginTest_1_VerifyLoginTestWithValidCrdentials" finished-at="2023-10-11T09:14:59 IST" duration-ms="1833" status="FAIL">
+        <test-method signature="TC_LoginTest_1_VerifyLoginTestWithValidCrdentials()[pri:0, instance:com.LoginTest.VerifyLoginTestWithValidCredentials@332796d3]" started-at="2023-10-15T09:06:58 IST" name="TC_LoginTest_1_VerifyLoginTestWithValidCrdentials" finished-at="2023-10-15T09:06:59 IST" duration-ms="1778" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [FaceBook Homepage] but found [Log in to Facebook]]]>
@@ -28,7 +35,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:629)
 at org.testng.Assert.assertEquals(Assert.java:639)
-at com.LoginTest.VerifyLoginTestWithValidCredentials.TC_LoginTest_1_VerifyLoginTestWithValidCrdentials(VerifyLoginTestWithValidCredentials.java:37)
+at com.LoginTest.VerifyLoginTestWithValidCredentials.TC_LoginTest_1_VerifyLoginTestWithValidCrdentials(VerifyLoginTestWithValidCredentials.java:39)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -63,11 +70,30 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_LoginTest_1_VerifyLoginTestWithValidCrdentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.LoginTest.VerifyLoginTestWithValidCredentials@7d4f9aae]" started-at="2023-10-11T09:14:59 IST" name="tearDown" finished-at="2023-10-11T09:15:00 IST" duration-ms="778" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.LoginTest.VerifyLoginTestWithValidCredentials@332796d3]" started-at="2023-10-15T09:06:59 IST" name="tearDown" finished-at="2023-10-15T09:07:00 IST" duration-ms="820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.LoginTest.VerifyLoginTestWithValidCredentials@332796d3]" started-at="2023-10-15T09:07:00 IST" name="setUp" finished-at="2023-10-15T09:07:03 IST" duration-ms="3063" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="m1()[pri:0, instance:com.LoginTest.VerifyLoginTestWithValidCredentials@332796d3]" started-at="2023-10-15T09:07:03 IST" name="m1" finished-at="2023-10-15T09:07:03 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.LoginTest.VerifyLoginTestWithValidCredentials@332796d3]" started-at="2023-10-15T09:07:03 IST" name="tearDown" finished-at="2023-10-15T09:07:04 IST" duration-ms="827" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.LoginTest.VerifyLoginTestWithValidCredentials -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- MasterTest -->
+  </suite> <!-- MasterSuite -->
 </testng-results>

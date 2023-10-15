@@ -39,4 +39,9 @@ public class VerifyLoginTestWithValidCredentials extends BaseClass{
 		Assert.assertEquals(ActualTitle, ExpectedTitle);
 		
 	}
+	
+	@Test
+	public void m1() {
+		System.out.println("Test M1");
+	}
 }
