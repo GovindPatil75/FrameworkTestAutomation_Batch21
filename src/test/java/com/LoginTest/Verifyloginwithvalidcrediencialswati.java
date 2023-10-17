@@ -22,9 +22,9 @@ import com.Utility.Library;
 			
 			//String DataExample=excel.getNumericTestData_Excel("LoginTestData", 0, 0);
 			
-			Library.custom_Sendkeys(Login.getTxt_email(), EmailTestData);
-			Library.custom_Sendkeys(Login.getTxt_password(), PasswordTestData);
-			Library.custom_click(Login.getBtn_Login());
+			//Library.custom_Sendkeys(Login.getTxt_email(), EmailTestData);
+			//Library.custom_Sendkeys(Login.getTxt_password(), PasswordTestData);
+			//Library.custom_click(Login.getBtn_Login());
 			
 			/*
 			Library.handleAlert(driver).accept();

@@ -21,9 +21,9 @@ public class VerifyLoginTestWithValidCredentials extends BaseClass{
 		
 		//String DataExample=excel.getNumericTestData_Excel("LoginTestData", 0, 0);
 		
-		Library.custom_Sendkeys(Login.getTxt_email(), EmailTestData);
-		Library.custom_Sendkeys(Login.getTxt_password(), PasswordTestData);
-		Library.custom_click(Login.getBtn_Login());
+		Library.custom_Sendkeys(Login.getTxt_email(), EmailTestData, "Email");
+		Library.custom_Sendkeys(Login.getTxt_password(), PasswordTestData,"Password");
+		Library.custom_click(Login.getBtn_Login(),"Login Button");
 		
 		/*
 		Library.handleAlert(driver).accept();
@@ -35,8 +35,9 @@ public class VerifyLoginTestWithValidCredentials extends BaseClass{
 		String ActualTitle =driver.getTitle();
 		String ExpectedTitle="FaceBook Homepage";
 		
+		Library.VerifyWithAssert(ActualTitle, ExpectedTitle);
 		//Verify
-		Assert.assertEquals(ActualTitle, ExpectedTitle);
+		//Assert.assertEquals(ActualTitle, ExpectedTitle);
 		
 	}
 	
